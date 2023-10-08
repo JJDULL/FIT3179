@@ -25,7 +25,7 @@
         "y":{"field":"Country_top", "sort": "-x", "title": "Country/Region"},
         "x":{"aggregate":"count", "field":"Company", "title": "Number of Unicorn Companies"},
         "tooltip": [
-            {"field": "Country_top", "type": "nominal", "title": "country"},
+            {"field": "Country_top", "type": "nominal", "title": "Country"},
             {"field": "Country_top", "type": "quantitative", "aggregate": "count", "title": "Number of Unicorn Companies"}
         ]
 
